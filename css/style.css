@@ -1,0 +1,49 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+  padding: 15px;
+}
+
+.hide {
+  display: none;
+}
+
+a,
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  opacity: 0.7;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+a:hover,
+input[type="submit"]:hover {
+  opacity: 1;
+}
+
+#comment-form {
+  width: 300px;
+}
+
+#comment-form div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+}
+
+#comment-form label {
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+
+#comment-form input,
+#comment-form textarea {
+  padding: 5px;
+}
